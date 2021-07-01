@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vanilla JS Carousel</title>
+</head>
+
+
+<body>
+    <div class="carousel">
+        <button class="carousel-button carousel-button-left is-hidden">&langle;</button>
+
+        <div class="carousel-track-container">
+            <ul class="carousel-track">
+                <li class="carousel-slide current-slide"><img class="carousel-image" src="images/slide-1.jpg" alt="">
+                </li>
+                <li class="carousel-slide"><img class="carousel-image" src="images/slide-2.jpg" alt=""></li>
+                <li class="carousel-slide"><img class="carousel-image" src="images/slide-3.jpg" alt=""></li>
+            </ul>
+        </div>
+
+        <button class="carousel-button carousel-button-right">&rangle;</button>
+
+        <div class="carousel-nav">
+            <button class="carousel-indicator current-slide"></button>
+            <button class="carousel-indicator"></button>
+            <button class="carousel-indicator"></button>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
